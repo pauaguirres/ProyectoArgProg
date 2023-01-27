@@ -1,32 +1,60 @@
-h1,h2,h3,h4{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans";
-    color: black;
 }
-
-img.logo {
-width: 100px;
-height: 100px;
-}
-
 h1{
-    font-size: 500%;
-    height: 150px;
-    background-image: url(../images/design1_image2.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-h2{
-    background-color: whitesmoke;
+    color: black;
     font-size: 200%;
+    font-weight: lighter;
+    margin: 0 0 0 50px;
+    text-align: left;
 }
-
+.banner{
+    width: 85%;
+    height: 170px;
+    margin: 0 50px 0 50px;
+}
+h2{
+    color:black;
+    background-color: whitesmoke;
+    font-size: 170%;
+    font-weight: lighter;
+    text-align: center;
+    border: 1px solid black;
+    width: 85%;
+    margin: 0 50px 0 50px;
+}
 h3{
+    color:black;
     font-size:150%;
     font-weight: bolder;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 15%;
+    
 }
-
-h4{
+p{
+    color: black;
     font-size: 100%;
     font-weight: lighter;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 18%;
+}
+img.logo{
+    width: 100px;
+    height: 100px;
+}
+nav{
+    font-size: 100%;
+    font-weight: lighter;
+    text-decoration: none;
+    position: relative;
+}
+a{
+    margin: 0;
+    padding: 0;
+
 }
