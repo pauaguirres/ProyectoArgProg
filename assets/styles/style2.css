@@ -4,6 +4,10 @@
     box-sizing: border-box;
     font-family: "Comic Sans MS", "Comic Sans";
 }
+header,main{
+    margin: 0 50px 0 50px;
+}
+
 h1{
     color: black;
     font-size: 200%;
@@ -11,11 +15,14 @@ h1{
     margin: 0 0 0 50px;
     text-align: left;
 }
+
 .banner{
     width: 85%;
     height: 170px;
     margin: 0 50px 0 50px;
+    object-fit: cover;                                                      
 }
+
 h2{
     color:black;
     background-color: whitesmoke;
@@ -26,35 +33,51 @@ h2{
     width: 85%;
     margin: 0 50px 0 50px;
 }
+
 h3{
     color:black;
     font-size:150%;
     font-weight: bolder;
-    padding: 1px;
-    margin: 1px;
     margin-left: 15%;
-    
+    margin-right: 15%;
+
 }
+
 p{
     color: black;
     font-size: 100%;
     font-weight: lighter;
-    padding: 1px;
-    margin: 1px;
-    margin-left: 18%;
+    margin-left: 17%;
+    margin-right: 20%;
+    text-align: justify;
 }
+
 img.logo{
     width: 100px;
     height: 100px;
+    position: fixed;
+    left: 100px;
 }
+
 nav{
     font-size: 100%;
     font-weight: lighter;
     text-decoration: none;
-    position: relative;
+    position: absolute;
+    top: 6%;
+    left: 70%;
 }
-a{
-    margin: 0;
-    padding: 0;
 
+a{
+    margin: 0 1px 0 1px;
+    padding: 2px 7px 2px 7px;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    background: rgb(54, 112, 221);
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a.botonverde{
+    background-color: rgb(109, 151, 37);
 }
