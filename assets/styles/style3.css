@@ -98,7 +98,7 @@ img.logo{
 nav{
     font-size: 100%;
     font-weight: lighter;
-    width: 600px;
+    width: 700px;
     height: 35px;
     margin-left: 5%;
     margin-top: 1%;
@@ -161,4 +161,34 @@ a.email{
     text-decoration: underline;
     padding: 0;
     margin: 0;
+}
+
+form{
+    margin-left: 17%;
+    margin-right: 20%;
+    text-align: justify;
+    line-height: 2;
+}
+
+fieldset{
+    padding: 2% 10% 2% 10%;
+    text-align: justify;
+
+}
+
+legend{
+    font-size: 150%;
+}
+#gender{
+    display: none;}
+
+#grade{
+    display: none;
+}
+#closestschool{
+    display: none;
+}
+
+iframe{
+    margin: 2% 0% 5% 20%;
 }
