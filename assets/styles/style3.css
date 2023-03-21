@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,main,footer{
+    margin: 0 50px 0 50px;
+}
+
+table{
+    margin: 0 200px 0 200px;
+    line-height: 2;
+    text-align: center;
+    border: 1px solid black;
+}
+th,tr,td{
+    border: 1px solid black;
+}
+h1{
+    color:rgb(36, 34, 34);
+    font-size: 500%;
+    height: 130px;
+    margin: 3px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+img.banner{
+    display: none;
+}
+
+h2{
+    color: white;
+    background-color: rgb(36, 34, 34);
+    font-size: 170%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 3px;
+    padding: 10px 0 10px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h3{
+    color:black;
+    font-size:150%;
+    font-weight: bolder;
+    margin: 1px;
+    margin-left: 15%;
+    padding: 10px 0 10px 0;
+}
+
+h4{
+    color:black;
+    font-size:110%;
+    font-weight: bolder;
+    padding: 10px 0 10px 0;
+    margin: 1px;
+    margin-left: 15%;
+    
+}
+
+p,ol,ul{
+    color: black;
+    font-size: 100%;
+    font-weight: lighter;
+    margin-left: 17%;
+    margin-right: 20%;
+    text-align: justify;
+    padding: 10px 0 10px 0;
+    line-height: 2;
+}
+ol.sublista1{
+    margin-left: 10%;
+    text-align: justify;
+}
+
+ul{
+    list-style-type: circle;
+    margin-left: 20%;
+    margin-right: 25%;
+    text-align: justify;
+}
+
+img.logo{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left:85%;
+    top: 40%;
+    background-color:white;
+    z-index: 1;
+    border: solid black 1px;
+}
+
+nav{
+    font-size: 100%;
+    font-weight: lighter;
+    width: 700px;
+    height: 35px;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+a{
+    padding-top: 50px;
+    padding-right: 2px;
+    color: rgb(36, 34, 34);
+    margin: 0 1px 0 1px;
+    padding: 2px 7px 2px 7px;
+    border: 1px solid black;
+    box-shadow: 2px 2px grey;
+    text-align: center;
+    width: 50%;
+}
+a.botonverde{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(36, 34, 34);
+}
+
+div{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin: 20px 50px 20px;
+    font-size: 76%;
+    display: flex;
+    background-color: rgb(36, 34, 34);
+}
+
+div.futer{
+    width: 50%;
+    height: 30px;
+    flex-direction:row;
+    justify-content: center;
+}
+h4.futer{
+    margin:20px 0 20px 0;
+    padding: 5px;
+    align-self: center;
+    color: white;
+}
+
+p.futer{
+    margin:20px 0 20px 0;
+    padding: 0px;
+    align-self: center;
+    color: white;
+}
+
+a.email{
+    background-color: none;
+    border: none;
+    box-shadow: none;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+}
+
+form{
+    margin-left: 17%;
+    margin-right: 20%;
+    text-align: justify;
+    line-height: 2;
+}
+
+fieldset{
+    padding: 2% 10% 2% 10%;
+    text-align: justify;
+
+}
+
+legend{
+    font-size: 150%;
+}
+#gender{
+    display: none;}
+
+#grade{
+    display: none;
+}
+#closestschool{
+    display: none;
+}
+
+iframe{
+    margin: 2% 0% 5% 20%;
+}

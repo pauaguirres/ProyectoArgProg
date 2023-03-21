@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+header,main{
+    margin: 0 50px 0 50px;
+}
+
+div{
+    height: 100px;
+}
+
+h1{
+    color: black;
+    font-size: 350%;
+    font-weight: lighter;
+    height: 170px;
+    background-image: url(../images/design1_image1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 3px;
+}
+
+h2{
+    color:antiquewhite;
+    background-color: black;
+    font-size: 170%;
+    font-weight: lighter;
+    text-align: center;
+    margin: 3px;
+
+}
+
+h3{
+    color:black;
+    font-size:150%;
+    font-weight: bolder;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 15%;
+    
+}
+
+p{
+    color: black;
+    font-size: 100%;
+    font-weight: lighter;
+    padding: 1px;
+    margin: 1px;
+    margin-left: 18%;
+}
+
+img.logo{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:80%;
+    top: 25%;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+nav{
+    font-size: 100%;
+    font-weight: lighter;
+    width: 220px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 6%;
+}
+
+a{
+    margin: 0;
+    padding-top: 50px;
+    color: rgba(82, 82, 216, 0.884)
+}
+a.botonverde{
+    color: black;
+    text-decoration: none;
+}
+
+img.banner{
+    display: none;
+}
